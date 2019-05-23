@@ -11,6 +11,7 @@
 ${article.content}
 <br> <br>
 
+<h2>Commentaires</h2>
 <#list commentaires as commentaire>
     ${commentaire.text} <button><a href="/deleteCommentaire/${article.id}/${commentaire.id}">Supprimer</a></button> <br>
 </#list>
