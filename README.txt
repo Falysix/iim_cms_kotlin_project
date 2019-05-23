@@ -14,3 +14,5 @@ FONCTIONNALITES INTEGREES
 - Une fois connecté en tant qu'admin, possibilité d'ajouter ou supprimer un article.
 - Si on supprime un article, ses commentaires doivent etre supprimés (soit manuellement, soit via les MySQL Foreign keys).
 - Une fois connecté en tant qu'admin, possibilité de supprimer un commentaire.
+
+J'ai aussi fixé la durée de la session admin à 30 min.
