@@ -12,7 +12,7 @@ Vous êtes connecté en tant qu'admin !
     <br>
     <form action="" method="post">
         <div>
-            <label for="new">Ajouter un commentaire: </label><br>
+            <label for="new">Ajouter un article: </label><br>
             Titre : <input type="text" name="title" id="title" required><br>
             Contenu : <input type="text" name="content" id="content" required>
         </div>

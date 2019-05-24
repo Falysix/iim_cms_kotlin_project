@@ -16,18 +16,5 @@ ${article.content}
     ${commentaire.text} <button><a href="/deleteCommentaire/${article.id}/${commentaire.id}">Supprimer</a></button> <br>
 </#list>
 
-<br>
-<form action="" method="post">
-    <div>
-        <label for="commentaire">Ajouter un commentaire: </label>
-        <input type="text" name="text" id="commentaire" required>
-    </div>
-    <div>
-        <input type="submit" value="Envoyer">
-    </div>
-</form>
-
-
-</html>
 </body>
 </html>
